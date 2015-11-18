@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Мой магазин</string>
+
+    <string name="title_activity_reg">Зарегистироваться</string>
+
+    <string-array name="screen_array">
+        <item>Акции и предложения</item>
+        <item>Мои предложения</item>
+        <item>Мои карты </item>
+        <item>Мои покупки</item>
+        <item>Опросник</item>
+        <item>Мой профиль</item>
+
+        <item>Выйти из профиля </item>
+
+        <!--<item>Пользовательские настройки</item>-->
+        <!--<item>Выйти из профиля</item>-->
+
+    </string-array>
+
+    <string name="mycard">Мои карты</string>
+    <string name="myprofile">Мой профиль</string>
+    <string name="myoffers">Акции и предложения</string>
+    <string name="mypurchase">Мои предложения</string>
+    <string name="history">Мои покупки</string>
+    <string name="logout">Выйти из профиля</string>
+    <string name="issue">Опросник</string>
+
+    <string-array name="sections_icons">
+        <item>@drawable/present</item>
+        <item>@drawable/stack1</item>
+        <item>@drawable/card</item>
+        <item>@drawable/offer</item>
+        <item>@drawable/issues</item>
+        <item>@drawable/person</item>
+        <item>@drawable/logout</item>
+    </string-array>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="mobileAppTitle">Мой магазин</string>
+
+
+
+    <string name="page">Страница:</string>
+    <string name="screen_two"></string>
+    <string name="screen_three"></string>
+    <string name="screen_four"></string>
+
+    <string name="personalCard">Персональная карта</string>
+    <string name="avCards">Доступные карты</string>
+
+    <string name="title_activity_stock">Акции</string>
+    <string name="title_activity_offer">Специальное предложение</string>
+    <string name="google_maps_key">AIzaSyDB8qh3ScURCH90lKrA5gcAWdt6-BLATGs</string>
+    <string name="btnMap">Показать</string>
+    <string name="showOffer">Получить спец. предложение</string>
+    <string name="offerReceived">Вы получили специальное предложение! Нажмите на клавишу ниже, чтобы узнать</string>
+
+    <string name="scan_process_label"></string>
+    <string name="scan_result_label"></string>
+
+
+    <!--offer inforamtion-->
+    <string name="inviteTextLabel">Просканируйте QR код и узнайте ваше персональное предложение!</string>
+
+    <string name="product">Товар</string>
+    <string name="discount">Скидка</string>
+    <string name="congratulation">Поздравляем!</string>
+    <string name="youReceivedAnOffer">Вы получили специальное предложение!</string>
+    <string name="showCodeText">Покажите данный код на кассе!</string>
+    <string name="saveCodeText">Сохранить код!</string>
+
+    <!--login credentials-->
+        <string name="hint_email">Email</string>
+        <string name="hint_phone">Телефон</string>
+        <string name="hint_password">Пароль</string>
+        <string name="hint_name">Fullname</string>
+
+        <string name="bday">День рождения:</string>
+
+        <string name="btn_login">Логин</string>
+        <string name="btn_register">Зарегистрироваться</string>
+        <string name="btn_link_to_register">Зарегистироваться.</string>
+        <string name="btn_link_to_login">Уже зарегистированы? Залогиньтесь.</string>
+        <string name="welcome">Добро пожаловать</string>
+        <string name="btn_logout">Выйти</string>
+
+<!--notification-->
+    <string name="no_conn">Отсутствует интернет</string>
+    <string name="exit_click">Нажмите еще раз для выхода</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="no_reg_data">Пожалуйста, введите свои учетные данные</string>
+
+    <string name="VG">Volodymyr Guk</string>
+    <string name="pos">Deputy Sales Director,</string>
+    <string name="pos2"> Head of channel Department</string>
+    <string name="com">NEWTEST LLC Kyiv, Ukraine</string>
+    <string name="phon">+380675077290</string>
+    <string name="mail">vguk@newtest.com.ua</string>
+
+    <string name="get">Просканируйте QR код  </string>
+    <string name="get2">либо нажмите кнопку "Получить"</string>
+
+    <string name="shareDialogTitle">Поделиться картой</string>
+    <string name="shareStock">Поделиться акцией</string>
+    <string name="share">Поделиться</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="set">Телефонные аксессуары со скидкой 10%</string>
+    <string name="nabor">Купите чай ТМ "Ньютест" и получите пачку печенья за полцены!</string>
+    <string name="article">Рубашка синего цвета, 26 размер</string>
+    <string name="goods">Обойный клей со скидкой 5%</string>
+
+    <string name="bonus">На Вашему счету 17.45 бонусов </string>
+
+    <string name="seturl">@drawable/accesories</string>
+    <string name="naborurl">@drawable/accesories</string>
+    <string name="articleurl">@drawable/accesories</string>
+    <string name="goodsurl">@drawable/accesories</string>
+
+    <string name="issues">Oцените работу нашего магазина</string>
+    <string name="assessment">Оценить!</string>
+
+    <string name="dialog">Вы действительно желаете удалить карту</string>
+
+
+</resources>

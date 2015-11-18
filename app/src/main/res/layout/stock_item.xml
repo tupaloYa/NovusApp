@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/layout_bg"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/stockText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Example Value"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/stockImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6.0dip"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="center_horizontal" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    <TextView
+        android:id="@+id/stockStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Example Value"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:paddingRight="10dp"
+        android:textColor="#f10505" />
+
+    <TextView
+        android:id="@+id/stockExpDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Example Value"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:paddingLeft="10dp"
+        android:textColor="#f10505" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Подробнее"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_gravity="center_horizontal" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+
+</LinearLayout>

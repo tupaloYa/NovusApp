@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/header_selector"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Регистрация"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/lastNameEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Фамилия"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            />
+
+        <EditText
+            android:id="@+id/nameEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Имя"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            />
+
+        <EditText
+            android:id="@+id/patrNameEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Отчество (Необязательно)"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пол"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/genderGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maleButton"
+            android:text="Мужской" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/femaleButton"
+            android:text="Женский" />
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/birthDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:onClick="onclick"
+            android:text="@string/bday"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/birthdayText"/>
+
+        <Button
+            android:layout_width="113dp"
+            android:layout_height="35dp"
+            android:text="Выбрать"
+            android:id="@+id/birthdayBtn" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:hint="Телефон" />
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:hint="E-mail" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:hint="Пароль" />
+
+        <EditText
+            android:id="@+id/pinCode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:hint="Пин-код" />
+
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dip"
+            android:background="#ffeae6bc"
+            android:text="@string/btn_register"/>
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/btnLinkToLoginScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dip"
+
+            android:textAllCaps="false"
+
+            android:textSize="15dp"
+            android:text="Уже зарегистрированы? Войдите" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

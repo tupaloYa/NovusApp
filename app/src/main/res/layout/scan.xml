@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/inviteText"
+        android:text="@string/inviteTextLabel"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        />
+    <FrameLayout
+        android:id="@+id/cameraPreview"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:id="@+id/scanText"
+        android:text="@string/scan_process_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black" />
+
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scanOfferLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+       >
+
+
+
+        </FrameLayout>
+
+
+</LinearLayout>

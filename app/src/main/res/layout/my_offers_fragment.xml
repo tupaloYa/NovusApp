@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <TextView
+            android:id="@+id/pOfferHintText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get"/>
+        <TextView
+            android:id="@+id/pOfferHintText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get2"
+            android:layout_alignParentBottom="true"
+            />
+
+
+        <ImageButton
+
+            android:id="@+id/gotoScanBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lqr_code_icon"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/layout_bg">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Получить">
+
+    </Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:padding="5dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_weight="0.10"
+            android:background="#db6b20">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/linearLayout1">
+                <TextView
+                    android:id="@+id/myOfferProductName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="#ffffff" />
+                <TextView
+                    android:id="@+id/myOfferDiscountName1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/myOfferQrCode1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/accesories"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/linearLayout1"
+                android:layout_alignBottom="@+id/linearLayout1"
+                android:layout_toRightOf="@+id/linearLayout1" />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:padding="5dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:background="#118066"
+            android:padding="5dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/linearLayout2">
+                <TextView
+                    android:id="@+id/myOfferProductName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#ffffff" />
+                <TextView
+                    android:id="@+id/myOfferDiscountName2"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:text="@string/nabor"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/myOfferQrCode2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cupcookies"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/linearLayout2"
+                android:layout_alignBottom="@+id/linearLayout2" />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:padding="5dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_weight="0.10"
+            android:background="#3b0cbe">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/linearLayout3">
+                <TextView
+                    android:id="@+id/myOfferProductName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="#ffffff" />
+                <TextView
+                    android:id="@+id/myOfferDiscountName3"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:text="@string/article"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/myOfferQrCode3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blue_shirt"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/linearLayout3"
+                android:layout_toRightOf="@+id/linearLayout3"
+                android:layout_alignBottom="@+id/linearLayout3" />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:padding="5dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_weight="0.10"
+            android:background="#fcb30326">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/linearLayout4">
+                <TextView
+                    android:id="@+id/myOfferProductName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff" />
+                <TextView
+                    android:id="@+id/myOfferDiscountName"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:text="@string/goods"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/myOfferQrCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/glue"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/linearLayout4"
+                android:layout_alignBottom="@+id/linearLayout4"
+                android:layout_toRightOf="@+id/linearLayout4" />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|right"
+        android:text="Стереть"
+        android:id="@+id/button" />
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/my_offers_recycler_view"-->
+        <!--android:scrollbars="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+
+</LinearLayout>
